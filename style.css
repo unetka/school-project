@@ -1,8 +1,15 @@
 *{
+    scroll-behavior: smooth;
     border: 0;
     padding: 0;
     margin: 0;
+    font-family: "Science Gothic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 647;
+    font-style: normal;
+    font-variation-settings: "slnt" 0, "wdth" 100, "CTRS" 0;
 }
+/* nav block */
 body{
     background-color: black
 }
@@ -16,14 +23,17 @@ body{
     gap: 50px;
 }
 .nav-text-p{
-    font-size: 40px;
+    font-size: 96px;
     color: #fff;
-
 }
 .nav-button{
     position:relative;
+    width: 130px;
+    height: 40px;
 }
 .main-line{
+    position: absolute  ;
+    top: 20px;
     width: 120px;
     height: 5px;
     background-color: #fff;
@@ -33,7 +43,7 @@ body{
     height: 5px;
     position: absolute;
     transform: rotate(30deg);
-    top: -8px;
+    top: 12px;
     left: 90px;
     background-color: #fff;
 }
@@ -42,10 +52,13 @@ body{
     height: 5px;
     position: absolute;
     transform: rotate(-30deg);
-    top: 8px;
+    top: 28px;
     left: 90px;
     background-color: #fff;
 }
+
+/* MAIN BLOCK */
+
 .main-block{
     top: 100%;
     position:absolute;
@@ -53,3 +66,111 @@ body{
     height: 100vh;
     right:100%;
 }
+.nav-main-block{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.text-nav-main-block-p{
+    font-size: 56px;
+    text-align: center;
+}
+.links-nav-main-block{
+    display: flex;
+    flex-direction: column;
+}
+.links-nav-main-block,a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 40px;
+    transition: .5s;
+}
+.links-nav-main-block,a:hover{
+    color: #b59999;
+}
+
+.pyton-block{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.main-text-pyton-p{
+    color: #fff;
+    font-size: 96px;
+    
+}
+.secondary-text-pyton{
+    width: 55%;
+    text-align: center;
+}
+.secondary-text-pyton-p{
+    color: #fff;
+    font-size: 36px;
+}
+.documentation-link{
+    display: flex;
+    width: 75%;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.documentation-text{
+    color: #fff;
+    font-size: 36px;
+}
+.documentation-pyton{
+    text-decoration: underline;
+}
+.history{
+    display: flex;
+    width: 45%;
+    gap: 40px; 
+}
+.text-bar{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.main-text-bar-p{
+    color: #fff;
+    font-size: 36px;
+}
+.second-text-bar{
+    color: #fff;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
