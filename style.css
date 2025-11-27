@@ -3,6 +3,7 @@
     border: 0;
     padding: 0;
     margin: 0;
+    color: #fff;
     font-family: "Science Gothic", sans-serif;
     font-optical-sizing: auto;
     font-weight: 647;
@@ -131,9 +132,9 @@ body{
 .documentation-pyton{
     text-decoration: underline;
 }
-.history{
+.history-creater{
     display: flex;
-    width: 45%;
+    width: 50%;
     gap: 40px; 
 }
 .text-bar{
@@ -147,14 +148,60 @@ body{
 }
 .second-text-bar{
     color: #fff;
+    font-size: 23px;
+}
+.history-development{
+    display: flex;
+    gap: 20px;
+    width: 50%;
+    flex-direction: column;
+}
+.heading-p{
+    font-size: 36px;
+}
+.component-list{
     font-size: 24px;
 }
-
-
-
-
-
-
+.tasks{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 50px;
+}
+.tasks-head{
+    width: 100%;
+    text-align: center;
+}
+.task-component{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.tasks-head-p{
+    font-size: 48px;
+}
+.task-component-head-p{
+    font-size: 32px;
+}
+.task-component-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.task-component-list{
+    font-size: 30px;
+    width: 70%;
+}
+.sample-code-head-p{
+    font-size: 36px;
+}
+.sample-code{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
 
 
 
